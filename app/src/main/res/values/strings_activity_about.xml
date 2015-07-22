@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="about_title_ver">0.1</string>
+<string name="about_title_app">About Bluebike</string>
+<string name="about_content_app">
+&#169; 2014 J. Ricardo Simões\n
+This app connects to Bluetooth devices LE (Low Energy), also called Bluetooth Smart, for information on the cadence and the speed of your bike. \n
+The app was developed and tested with the Nexus 5 handset with Android 5.0.1. \n
+To date, the compatibility was tested with BLE devices: \n
+** Speed and Cadence Sensor all4one Smart Bluetooth 4.0 - Connect Bike \n
+http://www.netshoes.com.br/sub/all4one?redirectParam=All4one
+</string>
+
+
+<string name="about_title_dev">About the developer</string>
+<string name="about_content_dev">
+He pedals around with his Breezer Storm Sport. Find him at his profile on Strava: http://www.strava.com/athletes/1218754\n
+The developer is freelance programmer in PHP, PostgreSQL, MySQL and Android.\n
+Works in the Court of the State of Rondônia, Brazil, since 1999. \n
+Graduated in Mathematics from the Federal University of Rondônia (2000) and a BA in Law from the Federal University of Rondônia (2009). \n
+It is expert in Linux Network Administration, Federal University of Lavras, Minas Gerais (2004) and Law for the Judicial Career by the School of Magistrates of the state of Rondônia (2013), an institution for which currently pursuing a specialization in Teaching and Teaching Methodology and Research. \n
+</string>
+<string name="about_content_url">http://ricardosimoes.com</string>
+<string name="about_content_email">jricardosimoes@gmail.com</string>
+
+<string name="about_title_os">Open source licences</string>
+<string name="about_content_os">
+Bluebike uses the following open source libraries:\n
+** com.jjoe64:graphview v. 3.1.3\n
+http://android-graphview.org\n
+&#169; 2013 Jonas Gehring\n
+Licensed under the GNU Lesser General Public License (LGPL)\n
+http://www.gnu.org/licenses/lgpl.html</string>
+
+</resources>

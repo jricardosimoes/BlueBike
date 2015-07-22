@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Text">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="Text.Big">
+        <item name="android:textSize">35sp</item>
+    </style>
+    <style name="Text.Large">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="Text.Medium">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Text.Normal">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Text.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style
+        name="Bluebike"
+        parent="@android:style/Theme.Holo.Light" >
+
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+
+    </style>
+
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MyActionBar.MyActionBarTitleText</item>
+        <item name="android:actionMenuTextAppearance">@style/MyActionBar.MyActionBarMenuText</item>
+
+    </style>
+    <style name="MyActionBar.MyActionBarTitleText"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="MyActionBar.MyActionBarMenuText"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+
+
+
+
+</resources>

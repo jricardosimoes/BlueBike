@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="about_title_ver">0.1</string>
+<string name="about_title_app">Sobre a Bluebike</string>
+<string name="about_content_app">
+&#169; 2014 J. Ricardo Simões\n
+Esta app se conecta a dispositivos Bluettoth LE (Low Energy), também chamados de Bluetooth Smart, para obter informações sobre a cadência e a velocidade de sua bicicleta.\n
+A app foi desenvolvida e testada com o aparelho Nexus 5 com Android 5.0.1.\n
+Até o momento, foi testada a compatibilidade com os seguintes dispositivos BLE:\n
+** Sensor de Velocidade e Cadência ALL4ONE Smart Bluetooth 4.0 - Connect Bike\n
+http://www.netshoes.com.br/sub/all4one?redirectParam=All4one
+</string>
+
+
+<string name="about_title_dev">Sobre o desenvolvedor</string>
+<string name="about_content_dev">
+Ele pedala por aí com sua Breezer Storm Sport. Encontre-o em seu perfil no Strava: http://www.strava.com/athletes/1218754\n
+É programador freelancer em PHP, PostgreSQL, MySQL e Android.\\
+Atua no Tribunal de Tribunal de Justiça do Estado de Rondônia desde 1999.\n
+Possui graduação em Matemática pela Universidade Federal de Rondônia (2000) e bacharelado em Direito pela Universidade Federal de Rondônia (2009).\n
+É Especialista em Administração de Redes Linux pela Universidade Federal de Lavras, Minas Gerais (2004) e em Direito para a Carreira da Magistratura pela Escola da Magistratura do Estado de Rondônia (2013), instituição pela qual atualmente cursa especialização em Docência e Metodologia do Ensino Superior e da Pesquisa.\n
+</string>
+<string name="about_content_url">http://ricardosimoes.com</string>
+<string name="about_content_email">jricardosimoes@gmail.com</string>
+
+<string name="about_title_os">Licenças de código aberto</string>
+<string name="about_content_os">
+Bluebike utiliza as seguintes bibliotecas de código aberto:\n
+** com.jjoe64:graphview v. 3.1.3\n
+http://android-graphview.org\n
+&#169; 2013 Jonas Gehring\n
+Licensed under the GNU Lesser General Public License (LGPL)\n
+http://www.gnu.org/licenses/lgpl.html</string>
+
+</resources>

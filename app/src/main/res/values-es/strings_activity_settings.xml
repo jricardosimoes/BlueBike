@@ -1,0 +1,415 @@
+<resources>
+    <!-- strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_favorite_address">Dispositivo favorito</string>
+    <string name="pref_title_favorite_enable">Conectar al dispositivo preferido</string>
+
+
+    <string name="pref_title_units">Unidades de medida para la distancia</string>
+    <string-array name="pref_unit_names">
+        <item>KM</item>
+        <item>Metro</item>
+        <item>Miles</item>
+    </string-array>
+
+    <string-array name="pref_unit_values">
+        <item>km</item>
+        <item>m</item>
+        <item>mi</item>
+    </string-array>
+
+
+    <string name="pref_title_tire">Tamaño de la rueda y el modelo de neumático</string>
+    <!--
+     http://www.bikecalc.com/wheel_size_math
+     -->
+    <string-array name="pref_tire_names">
+        <item>27inch /20 mm </item>
+        <item>27inch /23 mm </item>
+        <item>27inch /25 mm </item>
+        <item>27inch /28 mm </item>
+        <item>27inch /32 mm </item>
+        <item>27inch /35 mm </item>
+        <item>27inch /38 mm </item>
+        <item>27inch /44 mm </item>
+        <item>27inch /50 mm </item>
+        <item>27inch /56 mm </item>
+        <item>27inch /1.00 inch </item>
+        <item>27inch /1.25 inch </item>
+        <item>27inch /1.5 inch </item>
+        <item>27inch /1.75 inch </item>
+        <item>27inch /1.90 inch </item>
+        <item>27inch /1.95 inch </item>
+        <item>27inch /2.00 inch </item>
+        <item>27inch /2.10 inch </item>
+        <item>27inch /2.125 inch </item>
+        <item>27inch /2.20 inch </item>
+        <item>27inch /2.25 inch </item>
+        <item>27inch /2.30 inch </item>
+        <item>27inch /2.35 inch </item>
+        <item>27inch /2.40 inch </item>
+        <item>700c/29er /20 mm </item>
+        <item>700c/29er /23 mm </item>
+        <item>700c/29er /25 mm </item>
+        <item>700c/29er /28 mm </item>
+        <item>700c/29er /32 mm </item>
+        <item>700c/29er /35 mm </item>
+        <item>700c/29er /38 mm </item>
+        <item>700c/29er /44 mm </item>
+        <item>700c/29er /50 mm </item>
+        <item>700c/29er /56 mm </item>
+        <item>700c/29er /1.00 inch </item>
+        <item>700c/29er /1.25 inch </item>
+        <item>700c/29er /1.5 inch </item>
+        <item>700c/29er /1.75 inch </item>
+        <item>700c/29er /1.90 inch </item>
+        <item>700c/29er /1.95 inch </item>
+        <item>700c/29er /2.00 inch </item>
+        <item>700c/29er /2.10 inch </item>
+        <item>700c/29er /2.125 inch </item>
+        <item>700c/29er /2.20 inch </item>
+        <item>700c/29er /2.25 inch </item>
+        <item>700c/29er /2.30 inch </item>
+        <item>700c/29er /2.35 inch </item>
+        <item>700c/29er /2.40 inch </item>
+        <item>650b/27.5 /20 mm </item>
+        <item>650b/27.5 /23 mm </item>
+        <item>650b/27.5 /25 mm </item>
+        <item>650b/27.5 /28 mm </item>
+        <item>650b/27.5 /32 mm </item>
+        <item>650b/27.5 /35 mm </item>
+        <item>650b/27.5 /38 mm </item>
+        <item>650b/27.5 /44 mm </item>
+        <item>650b/27.5 /50 mm </item>
+        <item>650b/27.5 /56 mm </item>
+        <item>650b/27.5 /1.00 inch </item>
+        <item>650b/27.5 /1.25 inch </item>
+        <item>650b/27.5 /1.5 inch </item>
+        <item>650b/27.5 /1.75 inch </item>
+        <item>650b/27.5 /1.90 inch </item>
+        <item>650b/27.5 /1.95 inch </item>
+        <item>650b/27.5 /2.00 inch </item>
+        <item>650b/27.5 /2.10 inch </item>
+        <item>650b/27.5 /2.125 inch </item>
+        <item>650b/27.5 /2.20 inch </item>
+        <item>650b/27.5 /2.25 inch </item>
+        <item>650b/27.5 /2.30 inch </item>
+        <item>650b/27.5 /2.35 inch </item>
+        <item>650b/27.5 /2.40 inch </item>
+        <item>650c /20 mm </item>
+        <item>650c /23 mm </item>
+        <item>650c /25 mm </item>
+        <item>650c /28 mm </item>
+        <item>650c /32 mm </item>
+        <item>650c /35 mm </item>
+        <item>650c /38 mm </item>
+        <item>650c /44 mm </item>
+        <item>650c /50 mm </item>
+        <item>650c /56 mm </item>
+        <item>650c /1.00 inch </item>
+        <item>650c /1.25 inch </item>
+        <item>650c /1.5 inch </item>
+        <item>650c /1.75 inch </item>
+        <item>650c /1.90 inch </item>
+        <item>650c /1.95 inch </item>
+        <item>650c /2.00 inch </item>
+        <item>650c /2.10 inch </item>
+        <item>650c /2.125 inch </item>
+        <item>650c /2.20 inch </item>
+        <item>650c /2.25 inch </item>
+        <item>650c /2.30 inch </item>
+        <item>650c /2.35 inch </item>
+        <item>650c /2.40 inch </item>
+        <item>26inch mtb/20 mm </item>
+        <item>26inch mtb/23 mm </item>
+        <item>26inch mtb/25 mm </item>
+        <item>26inch mtb/28 mm </item>
+        <item>26inch mtb/32 mm </item>
+        <item>26inch mtb/35 mm </item>
+        <item>26inch mtb/38 mm </item>
+        <item>26inch mtb/44 mm </item>
+        <item>26inch mtb/50 mm </item>
+        <item>26inch mtb/56 mm </item>
+        <item>26inch mtb/1.00 inch </item>
+        <item>26inch mtb/1.25 inch </item>
+        <item>26inch mtb/1.5 inch </item>
+        <item>26inch mtb/1.75 inch </item>
+        <item>26inch mtb/1.90 inch </item>
+        <item>26inch mtb/1.95 inch </item>
+        <item>26inch mtb/2.00 inch </item>
+        <item>26inch mtb/2.10 inch </item>
+        <item>26inch mtb/2.125 inch </item>
+        <item>26inch mtb/2.20 inch </item>
+        <item>26inch mtb/2.25 inch </item>
+        <item>26inch mtb/2.30 inch </item>
+        <item>26inch mtb/2.35 inch </item>
+        <item>26inch mtb/2.40 inch </item>
+
+    </string-array>
+
+    <string-array name="pref_tire_values">
+        <item>27inch_20mm</item>
+        <item>27inch_23mm</item>
+        <item>27inch_25mm</item>
+        <item>27inch_28mm</item>
+        <item>27inch_32mm</item>
+        <item>27inch_35mm</item>
+        <item>27inch_38mm</item>
+        <item>27inch_44mm</item>
+        <item>27inch_50mm</item>
+        <item>27inch_56mm</item>
+        <item>27inch_1.00inch</item>
+        <item>27inch_1.25inch</item>
+        <item>27inch_1.5inch</item>
+        <item>27inch_1.75inch</item>
+        <item>27inch_1.90inch</item>
+        <item>27inch_1.95inch</item>
+        <item>27inch_2.00inch</item>
+        <item>27inch_2.10inch</item>
+        <item>27inch_2.125inch</item>
+        <item>27inch_2.20inch</item>
+        <item>27inch_2.25inch</item>
+        <item>27inch_2.30inch</item>
+        <item>27inch_2.35inch</item>
+        <item>27inch_2.40inch</item>
+        <item>700c/29er_20mm</item>
+        <item>700c/29er_23mm</item>
+        <item>700c/29er_25mm</item>
+        <item>700c/29er_28mm</item>
+        <item>700c/29er_32mm</item>
+        <item>700c/29er_35mm</item>
+        <item>700c/29er_38mm</item>
+        <item>700c/29er_44mm</item>
+        <item>700c/29er_50mm</item>
+        <item>700c/29er_56mm</item>
+        <item>700c/29er_1.00inch</item>
+        <item>700c/29er_1.25inch</item>
+        <item>700c/29er_1.5inch</item>
+        <item>700c/29er_1.75inch</item>
+        <item>700c/29er_1.90inch</item>
+        <item>700c/29er_1.95inch</item>
+        <item>700c/29er_2.00inch</item>
+        <item>700c/29er_2.10inch</item>
+        <item>700c/29er_2.125inch</item>
+        <item>700c/29er_2.20inch</item>
+        <item>700c/29er_2.25inch</item>
+        <item>700c/29er_2.30inch</item>
+        <item>700c/29er_2.35inch</item>
+        <item>700c/29er_2.40inch</item>
+        <item>650b/27.5_20mm</item>
+        <item>650b/27.5_23mm</item>
+        <item>650b/27.5_25mm</item>
+        <item>650b/27.5_28mm</item>
+        <item>650b/27.5_32mm</item>
+        <item>650b/27.5_35mm</item>
+        <item>650b/27.5_38mm</item>
+        <item>650b/27.5_44mm</item>
+        <item>650b/27.5_50mm</item>
+        <item>650b/27.5_56mm</item>
+        <item>650b/27.5_1.00inch</item>
+        <item>650b/27.5_1.25inch</item>
+        <item>650b/27.5_1.5inch</item>
+        <item>650b/27.5_1.75inch</item>
+        <item>650b/27.5_1.90inch</item>
+        <item>650b/27.5_1.95inch</item>
+        <item>650b/27.5_2.00inch</item>
+        <item>650b/27.5_2.10inch</item>
+        <item>650b/27.5_2.125inch</item>
+        <item>650b/27.5_2.20inch</item>
+        <item>650b/27.5_2.25inch</item>
+        <item>650b/27.5_2.30inch</item>
+        <item>650b/27.5_2.35inch</item>
+        <item>650b/27.5_2.40inch</item>
+        <item>650c_20mm</item>
+        <item>650c_23mm</item>
+        <item>650c_25mm</item>
+        <item>650c_28mm</item>
+        <item>650c_32mm</item>
+        <item>650c_35mm</item>
+        <item>650c_38mm</item>
+        <item>650c_44mm</item>
+        <item>650c_50mm</item>
+        <item>650c_56mm</item>
+        <item>650c_1.00inch</item>
+        <item>650c_1.25inch</item>
+        <item>650c_1.5inch</item>
+        <item>650c_1.75inch</item>
+        <item>650c_1.90inch</item>
+        <item>650c_1.95inch</item>
+        <item>650c_2.00inch</item>
+        <item>650c_2.10inch</item>
+        <item>650c_2.125inch</item>
+        <item>650c_2.20inch</item>
+        <item>650c_2.25inch</item>
+        <item>650c_2.30inch</item>
+        <item>650c_2.35inch</item>
+        <item>650c_2.40inch</item>
+        <item>26inchmtb_20mm</item>
+        <item>26inchmtb_23mm</item>
+        <item>26inchmtb_25mm</item>
+        <item>26inchmtb_28mm</item>
+        <item>26inchmtb_32mm</item>
+        <item>26inchmtb_35mm</item>
+        <item>26inchmtb_38mm</item>
+        <item>26inchmtb_44mm</item>
+        <item>26inchmtb_50mm</item>
+        <item>26inchmtb_56mm</item>
+        <item>26inchmtb_1.00inch</item>
+        <item>26inchmtb_1.25inch</item>
+        <item>26inchmtb_1.5inch</item>
+        <item>26inchmtb_1.75inch</item>
+        <item>26inchmtb_1.90inch</item>
+        <item>26inchmtb_1.95inch</item>
+        <item>26inchmtb_2.00inch</item>
+        <item>26inchmtb_2.10inch</item>
+        <item>26inchmtb_2.125inch</item>
+        <item>26inchmtb_2.20inch</item>
+        <item>26inchmtb_2.25inch</item>
+        <item>26inchmtb_2.30inch</item>
+        <item>26inchmtb_2.35inch</item>
+        <item>26inchmtb_2.40inch</item>
+
+    </string-array>
+
+
+    <string-array name="pref_tire_values_num">
+    <item>2104.87</item>
+    <item>2123.72</item>
+    <item>2136.28</item>
+    <item>2155.13</item>
+    <item>2180.27</item>
+    <item>2199.11</item>
+    <item>2217.96</item>
+    <item>2255.66</item>
+    <item>2293.36</item>
+    <item>2331.06</item>
+    <item>2138.80</item>
+    <item>2178.69</item>
+    <item>2218.59</item>
+    <item>2258.49</item>
+    <item>2282.43</item>
+    <item>2290.22</item>
+    <item>2298.39</item>
+    <item>2314.35</item>
+    <item>2318.50</item>
+    <item>2330.31</item>
+    <item>2338.29</item>
+    <item>2346.27</item>
+    <item>2354.25</item>
+    <item>2360.53</item>
+    <item>2079.73</item>
+    <item>2098.58</item>
+    <item>2111.15</item>
+    <item>2130.00</item>
+    <item>2155.13</item>
+    <item>2173.98</item>
+    <item>2192.83</item>
+    <item>2230.53</item>
+    <item>2268.23</item>
+    <item>2305.93</item>
+    <item>2113.66</item>
+    <item>2153.56</item>
+    <item>2193.46</item>
+    <item>2233.36</item>
+    <item>2257.30</item>
+    <item>2265.09</item>
+    <item>2273.26</item>
+    <item>2289.22</item>
+    <item>2293.36</item>
+    <item>2305.18</item>
+    <item>2313.15</item>
+    <item>2321.13</item>
+    <item>2329.11</item>
+    <item>2335.40</item>
+    <item>1960.35</item>
+    <item>1979.20</item>
+    <item>1991.77</item>
+    <item>2010.62</item>
+    <item>2035.75</item>
+    <item>2054.60</item>
+    <item>2073.45</item>
+    <item>2111.15</item>
+    <item>2148.85</item>
+    <item>2186.55</item>
+    <item>1994.28</item>
+    <item>2034.18</item>
+    <item>2074.08</item>
+    <item>2113.98</item>
+    <item>2137.92</item>
+    <item>2145.71</item>
+    <item>2153.88</item>
+    <item>2169.84</item>
+    <item>2173.98</item>
+    <item>2185.79</item>
+    <item>2193.77</item>
+    <item>2201.75</item>
+    <item>2209.73</item>
+    <item>2216.02</item>
+    <item>1919.51</item>
+    <item>1938.36</item>
+    <item>1950.93</item>
+    <item>1969.78</item>
+    <item>1994.91</item>
+    <item>2013.76</item>
+    <item>2032.61</item>
+    <item>2070.31</item>
+    <item>2108.01</item>
+    <item>2145.71</item>
+    <item>1953.44</item>
+    <item>1993.34</item>
+    <item>2033.24</item>
+    <item>2073.14</item>
+    <item>2097.08</item>
+    <item>2104.87</item>
+    <item>2113.04</item>
+    <item>2128.99</item>
+    <item>2133.14</item>
+    <item>2144.95</item>
+    <item>2152.93</item>
+    <item>2160.91</item>
+    <item>2168.89</item>
+    <item>2175.18</item>
+    <item>1881.81</item>
+    <item>1900.66</item>
+    <item>1913.23</item>
+    <item>1932.08</item>
+    <item>1957.21</item>
+    <item>1976.06</item>
+    <item>1994.91</item>
+    <item>2032.61</item>
+    <item>2070.31</item>
+    <item>2108.01</item>
+    <item>1915.74</item>
+    <item>1955.64</item>
+    <item>1995.54</item>
+    <item>2035.44</item>
+    <item>2059.38</item>
+    <item>2067.17</item>
+    <item>2075.34</item>
+    <item>2091.30</item>
+    <item>2095.44</item>
+    <item>2107.25</item>
+    <item>2115.23</item>
+    <item>2123.21</item>
+    <item>2131.19</item>
+    <item>2137.48</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

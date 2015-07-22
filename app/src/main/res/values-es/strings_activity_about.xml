@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="about_title_ver">0.1</string>
+    <string name="about_title_app"> Sobre Bluebike </string>
+    <string name="about_content_app">
+        © 2014 J. Ricardo Simões \n
+        Esta aplicación se conecta a dispositivos Bluettoth LE (Low Energy), también llamado Bluetooth Smart, para obtener información sobre la cadencia y la velocidad de su bicicleta. \n
+        La aplicación fue desarrollada y probada con el Nexus 5 teléfono con Android 5.0.1. \n
+        Hasta la fecha, se ensayó la compatibilidad con dispositivos BLE: \n
+        ** La velocidad y sensor de cadencia all4one inteligente Bluetooth 4.0 - Conectar Bike \n
+        http://www.netshoes.com.br/sub/all4one?redirectParam=All4one
+    </string>
+
+
+    <string name="about_title_dev"> Sobre el desarrollador </string>
+    <string name="about_content_dev">
+        Pedalea por ahí con su Breezer Storm Sport. Encuéntralo en su perfil en Strava: http://www.strava.com/athletes/1218754\n
+        El desarrollador es programador freelancer en PHP, PostgreSQL, MySQL y Android. \n
+        Obras en la Corte del Estado de Rondônia, Brasil, desde 1999. \n
+        Licenciado en Matemáticas por la Universidad Federal de Rondonia (2000) y una licenciatura en Derecho por la Universidad Federal de Rondonia (2009). \n
+        Es experto en Administración de Redes con Linux, Universidad Federal de Lavras, Minas Gerais (2004) y la Ley de la Carrera Judicial por la Escuela de la Magistratura del estado de Rondonia (2013), una institución que actualmente se encuentra cursando la especialización en Enseñanza y Docencia metodología e Investigación. \n
+    </string>
+    <string name="about_content_url"> http://ricardosimoes.com </string>
+    <string name="about_content_email"> jricardosimoes@gmail.com </string>
+
+    <string name="about_title_os">  licencias de código abierto </string>
+    <string name="about_content_os">
+        Bluebike utiliza las siguientes bibliotecas de código abierto: \n
+        ** Com.jjoe64: graphview v. 3.1.3 \n
+        http: //android-graphview.org \n
+        © 2013 Jonas Gehring \n
+        Licenciado bajo la Licencia Pública General de GNU (LGPL) \n
+        http://www.gnu.org/licenses/lgpl.html </string>
+
+</resources>

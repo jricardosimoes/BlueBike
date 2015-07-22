@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2c2071dcaf7a008c3b01a6381a33be55396bab09">
+        <dex dex="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/pre-dexed/release/classes-b982c5960bd030e74eff71e4264d71b3e9a258bf.jar" />
+    </item>
+    <item
+        jar="/home/ricardo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/pre-dexed/release/support-annotations-21.0.3-a07c28c93bbecf29d83620636d474cbf0f30ab61.jar" />
+    </item>
+    <item
+        jar="/home/ricardo/AndroidStudioProjects/BlueBike/app/libs/opencsv-3.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="100f1f66bcade989c73eabd3d56ac39df47317df">
+        <dex dex="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/pre-dexed/release/opencsv-3.1-b65a0c00aa2f65bd900596cc2c39181cc89aa86c.jar" />
+    </item>
+    <item
+        jar="/home/ricardo/AndroidStudioProjects/BlueBike/app/libs/androidplot-core-0.6.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3db0daea52375b26bfa61c59b8df93950bdefbbc">
+        <dex dex="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/pre-dexed/release/androidplot-core-0.6.1-97cab3ecd1ec488a33ca46f6cffc18f73da5c42a.jar" />
+    </item>
+    <item
+        jar="/home/ricardo/AndroidStudioProjects/BlueBike/app/libs/GraphView-3.1.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="672e4a5d8906ab21665dcc08c1f7edb6efd6f903">
+        <dex dex="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/pre-dexed/release/GraphView-3.1.3-ac858d11cc738d4e0b2933ffef250ae1ec2c0d4c.jar" />
+    </item>
+    <item
+        jar="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0dcc55e70f7ebf7238fe2ec53f662eb378ab2668">
+        <dex dex="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/pre-dexed/release/internal_impl-21.0.3-f35f9d90536638feb1291c843ee79b7d929fb9f3.jar" />
+    </item>
+    <item
+        jar="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/pre-dexed/release/classes-3526e8347e63047b57bca59782f0d98c4b467ff2.jar" />
+    </item>
+    <item
+        jar="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/ricardo/AndroidStudioProjects/BlueBike/app/build/intermediates/pre-dexed/release/internal_impl-21.0.3-455ddddae73164bf0984b3f43f6b99e8211ac251.jar" />
+    </item>
+
+</items>

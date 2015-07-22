@@ -1,0 +1,31 @@
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView android:id="@+id/recording_start"
+        style="@style/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"/>
+    <TextView android:id="@+id/recording_end"
+    android:layout_width="match_parent"
+    style="@style/Text"
+    android:layout_height="wrap_content"
+    android:textSize="16dp"/>
+
+    <TextView android:id="@+id/recording_file_name"
+        android:layout_width="match_parent"
+        style="@style/Text"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"/>
+
+</LinearLayout>
+-->
+
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/list_files"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/label_device_name"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/device_name"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/label_device_address"
+            android:id="@+id/device_address"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:id="@+id/connection_state"
+                android:layout_width="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_height="wrap_content"
+                android:text="@string/disconnected"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                    android:layout_weight="0.5"
+                android:gravity="center"
+                />
+            <TextView android:id="@+id/recording_state"
+                android:layout_width="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_height="wrap_content"
+                android:text="@string/recording_stoped"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/baterry_level"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/label_baterry_level"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/textView"
+            android:labelFor="@id/baterry_level"
+            android:layout_gravity="center_horizontal"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+
+
+            >
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/label_speed"
+                    android:id="@+id/textView2"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/label_cadence"
+                    android:id="@+id/textView2cadence"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.5" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/no_value"
+                    android:id="@+id/speed"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAlignment="center"
+                    android:textSize="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/no_value"
+                    android:id="@+id/cadence"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAlignment="center"
+                    android:textSize="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.5" />
+
+
+            </TableRow>
+
+
+
+
+
+
+
+        </TableLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/no_value"
+                android:id="@+id/speed_max"
+
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.25" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/no_value"
+                android:fontFamily="sans-serif-condensed"
+                android:id="@+id/speed_avg"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/no_value"
+                android:id="@+id/cadence_max"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/no_value"
+                android:fontFamily="sans-serif-condensed"
+                android:id="@+id/cadence_avg"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/label_max"
+                android:id="@+id/textView5"
+                android:fontFamily="sans-serif-condensed"
+                android:labelFor="@id/speed_max"
+                android:layout_weight="0.25"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/label_avg"
+                android:id="@+id/textView6"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_weight="0.25"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/label_max"
+                android:fontFamily="sans-serif-condensed"
+                android:id="@+id/textView9"
+                android:labelFor="@id/cadence_max"
+                android:layout_weight="0.25"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/label_avg"
+                android:id="@+id/textView10"
+                android:labelFor="@id/cadence_avg"
+                android:layout_weight="0.25"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/label_odometer"
+                android:id="@+id/textView12"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                style="@style/Text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/no_value"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/odometer"
+
+                style="@style/Text" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" android:id="@+id/speedXYPlot"
+        style="@style/Text">
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" android:id="@+id/cadenceXYPlot"
+        style="@style/Text"></LinearLayout>
+
+    <ExpandableListView android:id="@+id/gatt_services_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+</LinearLayout>
+

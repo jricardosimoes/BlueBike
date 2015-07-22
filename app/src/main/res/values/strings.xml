@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">No address</string>
+    <string name="label_device_name">No device</string>
+    <string name="label_state">State:</string>
+    <string name="label_read_state">Read State:</string>
+    <string name="label_cadence">Cadence</string>
+    <string name="label_odometer">Distance</string>
+    <string name="label_speed">Speed</string>
+    <string name="label_baterry_level">Baterry level</string>
+    <string name="label_min">Min</string>
+    <string name="label_max">Max</string>
+    <string name="label_avg">Avg</string>
+
+    <string name="label_from">From</string>
+    <string name="label_to">to</string>
+
+    <string name="label_recording_started">Started recording the activity.</string>
+    <string name="label_recording_stoped">Recording the activity has ended.</string>
+    <string name="label_recording_impossible">Could not write data.</string>
+    <string name="label_recording">Recording</string>
+
+
+    <string name="label_rec_data">Start of activity</string>
+    <string name="label_rec_start_stop">End of activity</string>
+
+    <string name="no_data">No data</string>
+    <string name="no_value">000</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">Bluebike</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="recording_stoped"></string>
+    <string name="recording_started">Recording</string>
+
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop scan</string>
+    <string name="menu_config">Preferencess</string>
+    <string name="menu_about">About...</string>
+    <string name="menu_start_log">Record</string>
+    <string name="menu_stop_log">Stop</string>
+    <string name="menu_recordings">Recordings</string>
+    <string name="menu_delete_recording">Erase</string>
+    <string name="menu_new">New activity</string>
+
+
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_before_scan">Please wait while compatible devices are located</string>
+    <string name="text_after_scan_ok1">The following compatible device was found:</string>
+    <string name="text_after_scan_ok2">The following compatible devices were found:</string>
+    <string name="text_after_scan_nok">Nno compatible devices with Bluetooth Smart or Bluetooh LE technology were found or devices found do not support to provide cadence and speed. Additionally, you can check if your device is close enough to be detected or it is set to be discovered.</string>
+    <string name="title_activity_about">About the Bluebike</string>
+    <string name="title_activity_list_logs">Recordings</string>
+    <string name="title_activity_main">Bluebike</string>
+    <string name="title_activity_settings">Preferences</string>
+    <string name="title_activity_device_scan">Scan for device</string>
+    <string name="title_activity_device_control">Control</string>
+    <string name="title_activity_recording">Recording</string>
+    <string name="date_format_default">MM/dd/yyyy HH:mm:ss</string>
+    <string name="date_only_format_default">MM/dd/yyyy</string>
+    <string name="hour_format_default">HH:mm:ss</string>
+
+    <string name="text_no_recording">Recorded activities were not found</string>
+    <string name="text_recording_open_fails">Could not open the recorded activity</string>
+
+
+
+
+</resources>
